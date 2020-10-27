@@ -1,0 +1,36 @@
+let mapleader = ","
+
+" https://github.com/JetBrains/ideavim/blob/master/doc/set-commands.md
+set clipboard=unnamedplus,unnamed,ideaput
+set hlsearch
+set ignorecase
+set incsearch
+set notimeout
+set number
+set relativenumber
+set scrolloff=5
+set showmode
+set smartcase
+set visualbell
+
+inoremap jk <Esc>
+
+inoremap <silent> <Leader>" Æ
+inoremap <silent> <Leader>' æ
+inoremap <silent> <Leader>: Ø
+inoremap <silent> <Leader>; ø
+inoremap <silent> <Leader>E É
+inoremap <silent> <Leader>[ å
+inoremap <silent> <Leader>e é
+inoremap <silent> <Leader>{ Å
+
+nnoremap <silent> <Leader><Leader> :action HideActiveWindow<CR>
+nnoremap <silent> <Leader>bb :action GotoFile<CR>
+nnoremap <silent> <Leader>bd :action CloseActiveTab<CR>
+nnoremap <silent> <Leader>bn :action NextTab<CR>
+nnoremap <silent> <Leader>bp :action PreviousTab<CR>
+nnoremap <silent> <Leader>q :action Exit<CR>
+nnoremap <silent> <Leader>r :action IdeaVim.ReloadVimRc.reload<CR>
+
+command! Debug action Debug
+command! Make action Build
