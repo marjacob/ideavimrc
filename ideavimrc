@@ -3,6 +3,7 @@ let mapleader = ","
 " https://github.com/JetBrains/ideavim/blob/master/doc/set-commands.md
 set clipboard=unnamedplus,unnamed,ideaput
 set hlsearch
+set ideajoin
 set ignorecase
 set incsearch
 set notimeout
