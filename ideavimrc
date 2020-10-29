@@ -26,10 +26,15 @@ inoremap <silent> <Leader>e é
 inoremap <silent> <Leader>{ Å
 
 nnoremap <silent> <Leader><Leader> :action HideActiveWindow<CR>
+nnoremap <silent> <Leader><Space> :nohlsearch<CR>
+nnoremap <silent> <Leader>B :action Build<CR>
+nnoremap <silent> <Leader>D :action Debug<CR>
+nnoremap <silent> <Leader>R :action Run<CR>
 nnoremap <silent> <Leader>bb :action GotoFile<CR>
-nnoremap <silent> <Leader>bd :action CloseActiveTab<CR>
+nnoremap <silent> <Leader>bd :action CloseEditor<CR>
 nnoremap <silent> <Leader>bn :action NextTab<CR>
 nnoremap <silent> <Leader>bp :action PreviousTab<CR>
+nnoremap <silent> <Leader>f :action ReformatCode<CR>
 nnoremap <silent> <Leader>q :action Exit<CR>
 nnoremap <silent> <Leader>r :action IdeaVim.ReloadVimRc.reload<CR>
 
