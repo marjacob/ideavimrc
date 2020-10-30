@@ -16,14 +16,14 @@ set visualbell
 
 inoremap jk <Esc>
 
-inoremap <silent> <Leader>" Æ
-inoremap <silent> <Leader>' æ
-inoremap <silent> <Leader>: Ø
-inoremap <silent> <Leader>; ø
-inoremap <silent> <Leader>E É
-inoremap <silent> <Leader>[ å
-inoremap <silent> <Leader>e é
-inoremap <silent> <Leader>{ Å
+inoremap <Leader>" Æ
+inoremap <Leader>' æ
+inoremap <Leader>: Ø
+inoremap <Leader>; ø
+inoremap <Leader>E É
+inoremap <Leader>[ å
+inoremap <Leader>e é
+inoremap <Leader>{ Å
 
 nnoremap <silent> <Leader><Leader> :action HideActiveWindow<CR>
 nnoremap <silent> <Leader><Space> :nohlsearch<CR>
