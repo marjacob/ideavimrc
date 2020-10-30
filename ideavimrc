@@ -25,6 +25,8 @@ inoremap <Leader>[ å
 inoremap <Leader>e é
 inoremap <Leader>{ Å
 
+nnoremap <C-H> :action PrevSplitter<CR>
+nnoremap <C-L> :action NextSplitter<CR>
 nnoremap <silent> <Leader><Leader> :action HideActiveWindow<CR>
 nnoremap <silent> <Leader><Space> :nohlsearch<CR>
 nnoremap <silent> <Leader>B :action Build<CR>
